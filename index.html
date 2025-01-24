@@ -4,19 +4,22 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="spreadsheet.css">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="spreadsheet.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div class="header">
+    <div class="header">
+        <inner-column>
             <h1>Header Logo</h1>
             <div class="links">
                 <ul>
@@ -31,24 +34,88 @@
                     </li>
                 </ul>
             </div>
+        </inner-column>
 
-        </div>
 
-        <div class="hero">
-            <div class="left">
-                <div class="tagline">
-                    This Website is Awesome
+    </div>
+
+
+    <div class="hero">
+        <inner-column>
+            <div class="hero-content">
+                <div class="content">
+                    <div class="tagline">
+                        This Website is Awesome
+                    </div>
+                    <div class="subtext">
+                        This Website has some subtext
+                    </div>
+                    <div class="buttons">
+                        <button>Sign Up</button>
+                    </div>
                 </div>
-                <div class="subtext">
-                    This Website has some subtext
+                <div class="content">
+                    <img src="./image/gigimurin-1881650746330132586-01.png" alt="">
                 </div>
             </div>
-            <div class="right">
+        </inner-column>
+    </div>
 
+    <div class="boxes">
+        <p id="information">Some Random information</p>
+        <inner-column>
+            <div class="columns">
+                <article class="card">
+                    <p class="rcorners"></p>
+                    <p class="card-text">baba</p>
+                </article>
+                <article class="card">
+                    <p class="rcorners"></p>
+                    <p class="card-text">baba</p>
+                </article>
+                <article class="card">
+                    <p class="rcorners"></p>
+                    <p class="card-text">baba</p>
+                </article>
+                <article class="card">
+                    <p class="rcorners"></p>
+                    <p class="card-text">baba</p>
+                </article>
             </div>
-        </div>
 
+        </inner-column>
+    </div>
 
-        <script src="" async defer></script>
-    </body>
+    <div class="quote-section">
+        <inner-column>
+            <div class="quote-text">
+                <p id="quote"> <em>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</em></p>
+                <p id="author">-George</p>
+            </div>
+        </inner-column>
+    </div>
+
+    <div class="call-to-action">
+        <inner-column>
+            <div class="call-to-action-content">
+                <div class="call-to-action-text">
+                    <p id="cta-text">Call to Action! It's Time!</p>
+                    <p id="cta-subtext">Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <div class="call-to-action-button">
+                    <button>Sign Up</button>
+                </div>
+            </div>
+        </inner-column>
+    </div>
+
+    <div class="footer">
+        <inner-column>
+            <div class="footer-content"></div>
+        </inner-column>
+    </div>
+
+    <script src="" async defer></script>
+</body>
+
 </html>
