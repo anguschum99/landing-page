@@ -51,7 +51,8 @@ inner-column{
     flex: 1;
     gap: 8px;
     font-family: Roboto,sans-serif;
-    border: 4px solid orange;
+    /*    border: 4px solid orange;
+ */
     margin-bottom: 40px;
     padding:40px 0;
 }
@@ -63,7 +64,8 @@ inner-column{
     gap: 2rem;
     margin-top: 1rem;
     flex: 1;
-    border: 4px solid blue;
+    /*     border: 4px solid blue; */
+
 }
 
 .tagline {
@@ -87,7 +89,8 @@ button {
     gap: 8px;
     flex: 1;
     border-radius: 1rem;
-    border: 4px solid blue;
+    /*     border: 4px solid blue; */
+    
     flex-basis: 100%;
 }
 
@@ -210,4 +213,16 @@ button {
 .call-to-action-button {
     border: 2px solid white;
     border-radius: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    color: #E5E7EB;
+    padding: 16px 0;
 }
