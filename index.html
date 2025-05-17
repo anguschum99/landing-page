@@ -11,6 +11,9 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="spreadsheet.css">
 </head>
 
@@ -20,7 +23,7 @@
         <![endif]-->
     <div class="header">
         <inner-column>
-            <h1>Header Logo</h1>
+            <img id="logo" src="/image/br.png">
             <div class="links">
                 <ul>
                     <li>
@@ -35,8 +38,6 @@
                 </ul>
             </div>
         </inner-column>
-
-
     </div>
 
 
@@ -45,13 +46,13 @@
             <div class="hero-content">
                 <div class="content">
                     <div class="tagline">
-                        This Website is Awesome
+                        Gi Murin
                     </div>
                     <div class="subtext">
-                        This Website has some subtext
+                        GI MURIN CHAT
                     </div>
                     <div class="buttons">
-                        <button>Sign Up</button>
+                        <button id="heroButton">Sign Up</button>
                     </div>
                 </div>
                 <div class="content">
@@ -62,24 +63,24 @@
     </div>
 
     <div class="boxes">
-        <p id="information">Some Random information</p>
+        <p id="information">Some of my GOATs</p>
         <inner-column>
             <div class="columns">
                 <article class="card">
-                    <p class="rcorners"></p>
-                    <p class="card-text">baba</p>
+                    <img src="./image/LeBron_James_(51959977144)_(cropped2).jpg">
+                    <p class="card-text">LEBRON JAMES</p>
                 </article>
                 <article class="card">
-                    <p class="rcorners"></p>
-                    <p class="card-text">baba</p>
+                    <img src="./image/ceresfauna-1875356361741234440-01.jpg">
+                    <p class="card-text">CERES FAUNA (R.I.P)</p>
                 </article>
                 <article class="card">
-                    <p class="rcorners"></p>
-                    <p class="card-text">baba</p>
+                    <img src="./image/Satoru_quotes_I_alone_am_the_honored_one_(Anime).png">
+                    <p class="card-text">GOATJO</p>
                 </article>
                 <article class="card">
-                    <p class="rcorners"></p>
-                    <p class="card-text">baba</p>
+                    <img src="./image/poopysunday-1921321397344731344-01.jpg">
+                    <p class="card-text">chiikawa</p>
                 </article>
             </div>
 
@@ -88,9 +89,14 @@
 
     <div class="quote-section">
         <inner-column>
-            <div class="quote-text">
-                <p id="quote"> <em>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</em></p>
-                <p id="author">-George</p>
+            <div class="quote-content">
+                <div class="quote-text">
+                    <p id="quote"> <em>Throughout heaven and earth, I alone am the honored one</em></p>
+                    <p id="author">- Gojo Satoru</p>
+                </div>
+                <iframe width="420" height="315"
+                src="https://www.youtube.com/embed/B_N1uEAHk10">
+                </iframe> 
             </div>
         </inner-column>
     </div>
@@ -103,7 +109,7 @@
                     <p id="cta-subtext">Sign up for our product by clicking that button right over there!</p>
                 </div>
                 <div class="call-to-action-button">
-                    <button>Sign Up</button>
+                    <button id="ctaButton">Sign Up</button>
                 </div>
             </div>
         </inner-column>
@@ -117,7 +123,7 @@
         </inner-column>
     </div>
 
-    <script src="" async defer></script>
+    <script src="script.js" async defer></script>
 </body>
 
 </html>
