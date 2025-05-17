@@ -1,4 +1,4 @@
 # Landing Page
 <p> Rehashing on HTML + CSS</p>
-<img src = image/screencapture-file-C-Users-IRSTE-OneDrive-Desktop-webdev-landing-page-index-html-2025-01-24-14_17_31.png>
 
+![May 17 2025](https://github.com/user-attachments/assets/c2ac3815-1a6a-46fa-bcf8-ecd1febdf6fb)
